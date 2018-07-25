@@ -1,0 +1,32 @@
+---
+# vars file for pkg_add
+  vars:
+   release: '6.1'
+   arch: 'amd64'
+   installurl_mirror: 'https://ftp3.usa.openbsd.org/pub/OpenBSD/'
+   pkg_path: 'https://ftp3.usa.openbsd.org/pub/OpenBSD/{{ release }}/packages/{{ arch }}/'
+   packages_list:
+    - vim
+    - colorls
+    - spectrwm
+    - unrar
+    - unzip--iconv
+    - mplayer
+    - firefox
+    - geeqie
+    - feh
+    - rsync--iconv
+    - cmixer
+    - openvpn
+    - chromium
+    - mupdf
+    - tor
+    - nmap
+    - x264
+    - scrot
+    - transmission-gtk
+    - sct
+    - gstreamerl-plugins-good
+    - gstreamerl-plugins-libav
+    - git
+

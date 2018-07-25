@@ -1,0 +1,8 @@
+---
+- hosts: host
+  gather_facts: true
+  become: True
+  become_method: doas
+
+  roles:
+    - pkg_add

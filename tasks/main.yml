@@ -1,0 +1,14 @@
+
+---
+  tasks:
+   - name: set installurl
+     lineinfile:
+      dest=/etc/installurl
+      line="{{ installurl_mirror }}"
+      insertafter=EOF
+      create=True
+
+   - name: Installing packages
+     openbsd_pkg: name={{ item }} state=present
+     with_items: "{{ packages_list }}"
+
