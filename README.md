@@ -18,7 +18,7 @@ Example Playbook
 
     - hosts: server
       roles:
-         - role: gonzalo-.pkg_add
+         - role: ansible-role-pkg_add
 
 License
 -------
