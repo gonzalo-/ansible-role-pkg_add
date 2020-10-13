@@ -17,14 +17,17 @@
     - feh
     - rsync--iconv
     - cmixer
-    - openvpn--
     - chromium
-    - mupdfi--
+    - mupdf--
     - tor
     - tor-browser
     - nmap
     - x264
     - scrot
+    - openvpn--
+    - foliate
+    - ansible
+    - sysclean
     - transmission-gtk
     - sct
     - gstreamerl-plugins-good
